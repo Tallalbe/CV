@@ -1,0 +1,9 @@
+<form action="traitement.php" method="post">
+  <label for="titre">Titre de la recette :</label>
+  <input type="text" id="titre" name="titre"><br><br>
+
+  <label for="ingredients">Ingrédients :</label>
+  <textarea id="ingredients" name="ingredients"></textarea><br><br>
+
+  <input type="submit" value="Envoyer">
+</form>
